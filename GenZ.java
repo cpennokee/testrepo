@@ -12,6 +12,10 @@ public class GenZ
         ArrayList list = new ArrayList();
         list.add(d);
         list.add(new Integer(4));
+        for (Object o: list)
+        {
+            System.out.println(o);
+        }
     }
 
 }
